@@ -1,0 +1,199 @@
+
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Header,.Hero,.Footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+/* Header Section */
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: start;
+    padding-right: 48px;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color:  #F9FAF8;
+    
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 48px;
+}
+
+/* Main Section */
+.Main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    flex-basis: auto;
+    
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.txt span{
+    
+    padding-left: 48px;
+    width: 400px;
+    font-size: 48px;
+    
+}
+.txt p{
+    padding-left: 48px;
+    width: 400px;
+}
+.Signbtn{
+    margin-left:48px;
+    display: flex;
+    justify-content: start;
+    align-self: start;
+}
+
+.imgg{
+    display:flex;
+    border: 2px solid #1f293736;
+    width: 400px;
+    background-color:#E5E7EB;
+    margin-right: 48px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Secondary Section */
+
+.Secondary{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.Secondary span{
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    color:#1F2937;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+    gap: 25px;
+
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.image div{
+    width: 50px;
+    height: 50px;
+    border: 5px solid #3882F6;
+    border-radius: 25%;
+    justify-content: space-evenly;
+}
+.image p{
+    width: 50px;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+/* Quote */
+.Quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self:center;
+    padding: 20px;
+    background-color: #E5E7EB;
+}
+.Quote p{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+.Quote span{
+    margin-right:20px;
+    padding-right: 20px;
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Call */
+.Action{
+    margin: 50px 100px;
+    display: flex;
+    color:  #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+.Call {
+    padding: 25px 50px;
+    background-color: #3882F6;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Call span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn{
+    border: 2px solid   #F9FAF8;
+    border-radius: 10%;
+    background-color: #3882F6;
+    padding:10px 20px;
+    color:#F9FAF8;
+    display: flex;
+    align-self: center;
+    font-weight: bold;
+}
+
+/* Footer */
+.Footer{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    align-self: stretch;
+}
